@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax>
+	<head>
+		<name>BlitzMax Syntax</name>
+		<charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]]></charsintokens>
+	</head>
+	<states>
+		<default id="Base" inverted-color="#EEEEEE">
+			<keywords id="Keywords" inverted-color="#ED76E4" casesensitive="yes" useforautocomplete="yes">
+                <string>Superstrict</string>
+                <string>Strict</string>
+                <string>Module</string>
+                <string>ModuleInfo</string>
+                <string>Framework</string>
+                <string>End</string>
+                <string>Return</string>
+                <string>Continue</string>
+                <string>Exit</string>
+                <string>Assert</string>
+                <string>Public</string>
+                <string>Private</string>
+                <string>True</string>
+                <string>False</string>
+                <string>Pi</string>
+                <string>Null</string>
+                <string>Self</string>
+                <string>Super</string>
+                <string>Byte</string>
+                <string>Short</string>
+                <string>Int</string>
+                <string>Long</string>
+                <string>Float</string>
+                <string>Double</string>
+                <string>Object</string>
+                <string>String</string>
+                <string>Var</string>
+                <string>Ptr</string>
+                <string>VarPtr</string>
+                <string>Chr</string>
+                <string>Len</string>
+                <string>Asc</string>
+                <string>SizeOf</string>
+                <string>Sgn</string>
+                <string>Abs</string>
+                <string>Min</string>
+                <string>Max</string>
+                <string>Mod</string>
+                <string>Shl</string>
+                <string>Shr</string>
+                <string>Sar</string>
+                <string>Not</string>
+                <string>And</string>
+                <string>Or</string>
+                <string>New</string>
+                <string>Release</string>
+                <string>Delete</string>
+                <string>Incbin</string>
+                <string>IncbinPtr</string>
+                <string>IncbinLen</string>
+                <string>Include</string>
+                <string>Import</string>
+                <string>Extern</string>
+                <string>EndExtern</string>
+                <string>Function</string>
+                <string>EndFunction</string>
+                <string>Type</string>
+                <string>EndType</string>
+                <string>Extends</string>
+                <string>Method</string>
+                <string>EndMethod</string>
+                <string>Local</string>
+                <string>Global</string>
+                <string>Const</string>
+                <string>Field</string>
+                <string>Abstract</string>
+                <string>Final</string>
+                <string>Rem</string>
+                <string>EndRem</string>
+                <string>If</string>
+                <string>Then</string>
+                <string>Else</string>
+                <string>ElseIf</string>
+                <string>EndIf</string>
+                <string>For</string>
+                <string>To</string>
+                <string>Next</string>
+                <string>Step</string>
+                <string>EachIn</string>
+                <string>While</string>
+                <string>Wend</string>
+                <string>Repeat</string>
+                <string>Until</string>
+                <string>Forever</string>
+                <string>Select</string>
+                <string>Case</string>
+                <string>Default</string>
+                <string>EndSelect</string>
+                <string>Try</string>
+                <string>Catch</string>
+                <string>EndTry</string>
+                <string>Throw</string>
+                <string>Goto</string>
+                <string>DefData</string>
+                <string>ReadData</string>
+                <string>RestoreData</string>
+                <string>Alias</string>
+			</keywords>
+
+			<keywords id="Keywords not CamelCased" inverted-color="#FF4242" casesensitive="yes" useforautocomplete="no" font-weight="bold">
+                <string>superstrict</string>
+                <string>strict</string>
+                <string>module</string>
+                <string>moduleinfo</string>
+                <string>framework</string>
+                <string>end</string>
+                <string>return</string>
+                <string>continue</string>
+                <string>exit</string>
+                <string>assert</string>
+                <string>public</string>
+                <string>private</string>
+                <string>true</string>
+                <string>false</string>
+                <string>pi</string>
+                <string>null</string>
+                <string>self</string>
+                <string>super</string>
+                <string>byte</string>
+                <string>short</string>
+                <string>int</string>
+                <string>long</string>
+                <string>float</string>
+                <string>double</string>
+                <string>object</string>
+                <string>string</string>
+                <string>var</string>
+                <string>ptr</string>
+                <string>varptr</string>
+                <string>chr</string>
+                <string>len</string>
+                <string>asc</string>
+                <string>sizeof</string>
+                <string>sgn</string>
+                <string>abs</string>
+                <string>min</string>
+                <string>max</string>
+                <string>mod</string>
+                <string>shl</string>
+                <string>shr</string>
+                <string>sar</string>
+                <string>not</string>
+                <string>and</string>
+                <string>or</string>
+                <string>new</string>
+                <string>release</string>
+                <string>delete</string>
+                <string>incbin</string>
+                <string>incbinptr</string>
+                <string>incbinlen</string>
+                <string>include</string>
+                <string>import</string>
+                <string>extern</string>
+                <string>endextern</string>
+                <string>function</string>
+                <string>endfunction</string>
+                <string>type</string>
+                <string>endtype</string>
+                <string>extends</string>
+                <string>method</string>
+                <string>endmethod</string>
+                <string>local</string>
+                <string>global</string>
+                <string>const</string>
+                <string>field</string>
+                <string>abstract</string>
+                <string>final</string>
+                <string>rem</string>
+                <string>endrem</string>
+                <string>if</string>
+                <string>then</string>
+                <string>else</string>
+                <string>elseif</string>
+                <string>endif</string>
+                <string>for</string>
+                <string>to</string>
+                <string>next</string>
+                <string>step</string>
+                <string>eachin</string>
+                <string>while</string>
+                <string>wend</string>
+                <string>repeat</string>
+                <string>until</string>
+                <string>forever</string>
+                <string>select</string>
+                <string>case</string>
+                <string>default</string>
+                <string>endselect</string>
+                <string>try</string>
+                <string>catch</string>
+                <string>endtry</string>
+                <string>throw</string>
+                <string>goto</string>
+                <string>defdata</string>
+                <string>readdata</string>
+                <string>restoredata</string>
+                <string>alias</string>
+			</keywords>
+
+			<keywords id="Integer" inverted-color="#3333FF" useforautocomplete="no">
+                <regex>([0-9]+)</regex>
+            </keywords>
+
+            <keywords id="Identifier" inverted-color="#FFFFFF" useforautocomplete="no">
+                <regex>([A-Za-z_][A-Za-z_0-9]*)</regex>
+            </keywords>
+
+            <keywords id="Probably a type" inverted-color="#CCCCFF" font-weight="bold" font-style="italic" useforautocomplete="no">
+                <regex>[^A-Za-z_0-9](T[A-Z][A-Za-z_0-9]*[a-z]+[A-Za-z_0-9]*)</regex>
+            </keywords>
+
+			<keywords id="Floating point" inverted-color="#3333FF" useforautocomplete="no">
+                <regex>(-?(?:(?:[1-9][0-9]*\.?[0-9]*e-?[0-9]+)|(?:[0-9]*\.[0-9]+)))</regex>
+            </keywords>
+
+			<keywords id="Hexadecimal" inverted-color="#3333FF" font-weight="bold" useforautocomplete="no">
+                <regex>(\$[0-9A-F]+)</regex>
+            </keywords>
+
+			<keywords id="Binary" inverted-color="#3333FF" font-weight="bold" useforautocomplete="no">
+                <regex>(%[01]+)</regex>
+            </keywords>
+
+            <state id="Strings" inverted-color="#FF8713" font-style="normal">
+                <begin><regex>&quot;</regex></begin>
+                <end><regex>[^\n\r&quot;]*&quot;</regex></end>
+
+                <keywords id="Escape sequences" inverted-color="#FF8713" font-weight="bold">
+                    <regex>([~][0trnq])</regex>
+                </keywords>
+            </state>
+
+            <state id="Block Comment" inverted-color="#91DC93" font-style="italic">
+                <begin><regex>(?:^|\s)Rem\s</regex></begin>
+                <end><regex>(?:^|\s)(?:End Rem|EndRem)(?:$|\s)</regex></end>
+            </state>
+
+            <state id="' Comment" inverted-color="#91DC93" font-style="italic">
+                <begin><regex>'</regex></begin>
+                <end><regex>[\n\r]</regex></end>
+            </state>
+
+            <state id="Conditional Compiling" inverted-color="#FF2300">
+                <begin><regex>^\?</regex></begin>
+                <end><regex>[\n\r]</regex></end>
+            </state>
+
+		</default>
+
+	</states>
+</syntax>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <template>template.bmx</template>
+  <recognition>
+    <extension>bmx</extension>
+  </recognition>
+</settings>

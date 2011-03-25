@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE syntax SYSTEM "symbol.dtd">
+<symbols>
+
+    <symbol id="Type" image="SymbolT" indentation="0">
+        <regex>^\s*Type\s+([A-Za-z_][A-Za-z_0-9]*)</regex>
+    </symbol>
+
+    <symbol id="Method" image="SymbolM" indentation="1">
+        <regex>^\s*Method\s+([^\r\n]+)</regex>
+    </symbol>
+
+    <symbol id="Function" image="SymbolF()" indentation="1">
+        <regex>^\s*Function\s+([^\r\n]+)</regex>
+    </symbol>
+
+    <symbol id="Pragma marks" font-weight="normal" font-style="normal" image="SymbolMark" indentation="0" ignoreblocks="no" show-in-comments="yes">
+        <regex>[ \t]*'[ \t]*![ \t]?([^\r\n]*)</regex>
+    </symbol>
+
+</symbols>

@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "BlitzMax";
+CFBundleShortVersionString = "0.1";
+CFBundleGetInfoString = "BlitzMax Mode 0.1";
+NSHumanReadableCopyright = "(c) Jens Riisom Schultz";
