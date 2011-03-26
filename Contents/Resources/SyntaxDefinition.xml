@@ -7,7 +7,7 @@
 	<states>
 		<default id="Base" inverted-color="#EEEEEE">
 			<keywords id="Keywords" inverted-color="#ED76E4" casesensitive="yes" useforautocomplete="yes">
-                <string>Superstrict</string>
+                <string>SuperStrict</string>
                 <string>Strict</string>
                 <string>Module</string>
                 <string>ModuleInfo</string>
