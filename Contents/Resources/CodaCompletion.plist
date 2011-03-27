@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Completions</key>
+	<array>
+		<dict>
+			<key>Hint</key>
+			<string>somethingz</string>
+			<key>ID</key>
+			<string>someFunction</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>someFunction</string>
+		</dict>
+	</array>
+	<key>Name</key>
+	<string>BlitzMax</string>
+</dict>
+</plist>
