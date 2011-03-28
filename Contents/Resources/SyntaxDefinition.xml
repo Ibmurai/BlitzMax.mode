@@ -245,17 +245,17 @@
                 </keywords>
             </state>
 
-            <state id="Block Comment" inverted-color="#91DC93" font-style="italic">
-                <begin><regex>(?:^|\s)Rem\s</regex></begin>
-                <end><regex>(?:^|\s)(?:End Rem|EndRem)(?:$|\s)</regex></end>
+            <state id="Block Comment" inverted-color="#91DC93" font-style="italic"  type="comment">
+                <begin><regex>^\s*[rR][eE][mM]</regex></begin>
+                <end><regex>^\s*[eE][nN][dD]\s*[rR][eE][mM]</regex></end>
             </state>
 
-            <state id="' Comment" inverted-color="#91DC93" font-style="italic">
+            <state id="' Comment" inverted-color="#91DC93" font-style="italic" type="comment">
                 <begin><regex>'</regex></begin>
                 <end><regex>[\n\r]</regex></end>
             </state>
 
-            <state id="Conditional Compiling" inverted-color="#FF2300">
+            <state id="Conditional Compiling" inverted-color="#FF2300" type="comment">
                 <begin><regex>^\?</regex></begin>
                 <end><regex>[\n\r]</regex></end>
             </state>
