@@ -14,7 +14,7 @@ Installation
 This is the preferred method.
 
     cd ~/Library/Application\ Support/Coda/Modes
-    git clone git@github.com:Ibmurai/BlitzMax.mode.git
+    git clone -b master git@github.com:Ibmurai/BlitzMax.mode.git
 
 If Coda is running, you will need to quit and relaunch it.
 
